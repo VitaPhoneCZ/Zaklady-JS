@@ -8,6 +8,7 @@ function add(){
     output.innerHTML += i + ". " + input.value + "<br>";
     i++;
 }
+
 function add2() {
     let lastMessage = output.innerHTML.split("<br>").slice(-2, -1)[0]; // Získá poslední zprávu
     output.innerHTML = output.innerHTML.replace(lastMessage, lastMessage + "💀"); // Přidá emoji
