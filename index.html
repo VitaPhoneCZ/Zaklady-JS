@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Základy JavaScript</title>
     <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
@@ -13,15 +14,17 @@
 
     </header>
     <main>
-            <section>
-                <input type="text" id="input">
-                <button onclick="add()">Přidej</button>
-            </section>
-            <section>
-                <p id="output">
-                    
-                </p>
-            </section>
+        <section>
+            <input type="text" id="input">
+        </section>
+        <section class="centered">
+            <button onclick="add()">Přidej</button>
+            <button onclick="add2()">Přidej Emoji 💀</button>
+            <button class="del" onclick="del()">Smaž vše</button>
+        </section>
+        <section>
+            <p id="output"></p>
+        </section>
     </main>
     <footer>
 
