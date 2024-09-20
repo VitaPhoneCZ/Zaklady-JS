@@ -19,3 +19,4 @@ function del() {
     output.innerHTML = ""; // Smaže všechny zprávy
     i=1;
 }
+

@@ -36,7 +36,7 @@ input[type="text"] {
     padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: calc(100% - 1em);
+    /*width: calc(100% - 1em);*/
 }
 
 button {
@@ -76,4 +76,10 @@ button:hover {
 .del:hover {
     background-color: #000000;
     color: rgb(255, 0, 0);
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
