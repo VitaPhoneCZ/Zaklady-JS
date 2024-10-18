@@ -1,0 +1,20 @@
+main {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    background-color: black;
+    border-radius: 10px;
+}
+body {   
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+img {
+    max-width: 212PX;
+    border-radius: 10px;
+}
+div {
+    padding: 5px;
+}
